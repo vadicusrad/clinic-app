@@ -1,0 +1,51 @@
+.header {
+    width: 1366px;
+    min-height: 55px;
+    left: 0px;
+    top: 0px;
+    background: #50CAFF;
+    color: white;
+    display: flex;
+  
+
+    &__logoSection {
+        width: 190px;
+        min-height: 55px;
+        background: #003B72;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    &__wrapper {
+        box-sizing: border-box;
+        height: 100%;
+        flex-grow: 1;
+        display: flex;  
+        justify-content: flex-end;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+    }
+
+    &__iconWrapper {
+        border: 1px solid #FFFFFF;
+        border-radius: 50%;
+        width: 49px;
+        height: 49px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
